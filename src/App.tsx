@@ -110,6 +110,7 @@ const App = () => {
 
   return (
     <>
+      <h1>C1 科目三灯光模拟考试</h1>
       {examIndex < 0 && (
         <>
           <button onClick={nextExamIndex}>系好安全带，发动机点火，开始灯光考试</button>
